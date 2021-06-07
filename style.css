@@ -1,0 +1,47 @@
+.heading{
+    width: 100%;
+    margin: 0px;
+    font-size: 23px;
+    }
+    .heading_div{
+        background-color: aliceblue;
+        padding: 10px;
+        border-radius: 20px;
+        color: black;
+        float: none;
+    }
+    .heading_div2{
+       font-size: 18px;
+    }
+    body{
+        background-image: url('photo-1579546929662-711aa81148cf.jpeg');
+    }
+    .para{
+        font-size: 20px;
+    
+    }
+    .footer_div{
+        position: fixed;
+        bottom: 0;
+        background-color: darkgray;
+        width: 100%;
+        text-align: center;
+        
+    }
+    Canvas{
+        border: 5px solid rebeccapurple;
+        margin-top:  150px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+     
+        animation-name: example;
+        animation-duration: 5s; 
+        animation-iteration-count: infinite;
+    }
+    @keyframes example{
+    0%{box-shadow: 5px 10px 18px 18px rosybrown;}
+    50%{box-shadow: 5px 10px 18px 18px rgb(157, 228, 250);}
+    100%{box-shadow: 5px 10px 18px 18px rgb(233, 250, 157);}
+    }
+    
+    
